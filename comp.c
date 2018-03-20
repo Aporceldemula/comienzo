@@ -10,12 +10,26 @@ int main(){
    float num2;
 
   /*pedir al usuario*/
-   printf("introduce los numeros \n");
-   scanf("%.2f %.2f %.2f", &num, &num1, &num2);
+   printf("introduce el numero \n");
+   scanf("%f", &num);
+   printf("introduce el numero \n");
+   scanf("%f", &num1);
+   printf("introduce el tercer numero \n");
+   scanf("%f", &num2);
 
-  /*evaluacion*/
-   if(num<=num1<=num2){
-       printf("%f es el mayor \n", num2);
-   }
+  /*comparacion*/
+   if (num<=num1<=num2){
 
-}
+    printf("%.2f es el mayor", num2);
+
+   }else
+       if (num<=num2<=num1){
+
+         printf("%.2f es el mayor", num1);
+
+       }else{
+
+          printf("%.2f es el mayor", num);
+
+       }
+};
