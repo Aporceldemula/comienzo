@@ -18,18 +18,22 @@ int main(){
    scanf("%f", &num2);
 
   /*comparacion*/
-   if (num<=num1<=num2){
+   if ((num<=num1)&&(num1<=num2)){
 
-    printf("%.2f es el mayor", num2);
+    printf("%.2f es el mayor \n", num2);
 
    }else
-       if (num<=num2<=num1){
+       if ((num<=num1)&&(num1>=num2)){
 
-         printf("%.2f es el mayor", num1);
+         printf("%.2f es el mayor \n", num1);
 
-       }else{
+       }else
+           if((num>=num1)&&(num1>=num2)){
 
-          printf("%.2f es el mayor", num);
+          printf("%.2f es el mayor \n", num);
 
-       }
-};
+       }else
+           if((num>=num1)&&(num1<=num2)){
+            printf("%.2f es el mayor \n", num);
+           };
+}

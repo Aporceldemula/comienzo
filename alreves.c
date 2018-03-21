@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 
 /*el usuario teclea cuatro letras y se muestran en pantalla juntas pero en orden inversoy entre comillas dobles*/
@@ -31,5 +33,4 @@ int main(){
 
 
     printf(" \" %c \r %c \r %c \r %c \" ", letra, letra1, letra2, letra3);
-
-}
+};
