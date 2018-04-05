@@ -26,11 +26,9 @@ int main(){
     scanf("%c", &letra3);
 
   /*imprimo*/
-    printf(" \" %c %c %c %c \" ", letra3, letra2, letra1, letra);
+    printf(" \" %c %c %c %c \" \n ", letra3, letra2, letra1, letra);
 
     
   /*segunda manera*/ /* \r vuelve al principio de linea*/
-
-
-    printf(" \" %c \r %c \r %c \r %c \" ", letra, letra1, letra2, letra3);
+    printf("\" %c %c %c %c \ \n", letra, letra1, letra2, letra3);
 };
