@@ -30,5 +30,5 @@ int main(){
 
     
   /*segunda manera*/ /* \r vuelve al principio de linea*/
-    printf("\" %c %c %c %c \ \n", letra, letra1, letra2, letra3);
+    printf(" \" %c \r %c \r %c \r %c \n \" ", letra, letra1, letra2, letra3);
 };

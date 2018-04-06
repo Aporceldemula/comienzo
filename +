@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+
+int main(){
+
+  /*inicializar*/
+   int num;
+
+  /*pedir al usuario*/
+   printf("introduce un numero \n");
+   scanf("%d", &num);
+
+  /*condicion*/
+   while(num != 0){
+
+       if(num<0){
+           printf("%d es positivo \n", num);
+       }
+
+       if(num>0){
+           printf("%d es negativo \n", num);
+       };
+   };
+
+}
