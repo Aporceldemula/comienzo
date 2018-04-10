@@ -2,6 +2,11 @@
 
 int main(){
 
+  /*inicializacion*/
+   
+
+  /*condicion*/
+   
 
 
 }
