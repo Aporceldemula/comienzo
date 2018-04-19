@@ -5,7 +5,7 @@ int main(){
 
   /*inicializacion*/
   int meses[12]={31,31,30,28,30,31,30,31,30,31,30};
- char mes[12]={"enero","febrero","marzo","abril","mayo","junio","septiembre","octubre", "noviembre","diciembre"};
+ char * const mes[12]={"enero","febrero","marzo","abril","mayo","junio","septiembre","octubre", "noviembre","diciembre"};
   /*condicion*/
   printf("introduce un mes\n");
   scanf("%s",&mes); 
