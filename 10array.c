@@ -1,6 +1,8 @@
 
 #include <stdio.h>
 
+/*introduce 10 numeros y que salgan la reves de como han sido introducidos*/
+
 int main(){
 int i;
   /*inicializacion*/
@@ -14,8 +16,4 @@ int i;
         printf("%d",numeros[i]);
 
     }
-  /*condicion*/
-   
-
-
 }
