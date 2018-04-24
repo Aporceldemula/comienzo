@@ -8,8 +8,8 @@ int main(){
   /*inicializacion*/
   int numeros[10];
   int i;
-  int suma;
-
+  int suma=0;
+  int media=0;
   /*pedir al usuario*/
   printf("introduce los numeros");
 
@@ -18,8 +18,8 @@ int main(){
     suma=suma+numeros[i];
   }
 
-  int media=suma/10;
-  printf("%d",media);
+  media=suma/10;
+  printf("la media es %d\n",media);
 
    for(i=0;i<=9;i++){
        if(numeros[i]>media){

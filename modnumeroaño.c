@@ -7,7 +7,7 @@
 int main(){
 
   /*inicializacion*/
-  int NumDia[13]={0,31,28,30,30,31,30,31,31,30,31,30,31};
+  int NumDia[12]={31,28,30,30,31,30,31,31,30,31,30,31};
   int mes;
   int dia;
   int SumDias=0;
@@ -26,7 +26,7 @@ int main(){
     }
   printf("%d\n", SumDias);
 
-    total=SumDias+dia; //si no creo la variable total no me coje la suma de laas variables
+    total=SumDias+dia; //si no creo la variable total no me coje la suma de las variables
     printf("numero de dia en cuanto al año%d\n", total);
     DiasSobrantes=365-total;
     printf("dias que le quedan al año%d\n", DiasSobrantes);

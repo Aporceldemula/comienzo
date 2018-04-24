@@ -24,7 +24,7 @@ int main(){
     }
   printf("%d\n", SumDias);
 
-    total=SumDias+dia; //si no creo la variable total no me coje la suma de laas variables
+    total=SumDias+dia; //si no creo la variable total no me coje la suma de las variables
     printf("numero de dia en cuanto al año%d\n", total);
 
 }
